@@ -14,7 +14,7 @@ def a_answer(arr):
     return arr.append(arr[-1] + 2)
 def b_answer(arr):
     """
-    Cada elemento é gerado a partir da multiplicação dele mesmo com 2
+    Cada elemento é gerado a partir da multiplicação do ultimo com 2
     """
     return arr.append(arr[-1] * 2)
 def c_answer(arr):
